@@ -25,9 +25,10 @@ class Solution{
         //2nd step
         for(int i=n-1 ;i>pivot ;i--)
         {
-            if(A[i] > A[pivot])
+            if(A[i] > A[pivot]) {
                 swap(A[i],A[pivot]);
                 break;
+            }
         }
 
         //3rd step
