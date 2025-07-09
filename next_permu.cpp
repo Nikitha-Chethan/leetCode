@@ -14,7 +14,7 @@ class Solution{
             if(A[i] < A[i+1])
             {
                 pivot = i;
-                break
+                break;
             }
         } 
         if(pivot == -1)
@@ -48,7 +48,7 @@ int main()
         cout<<num<<" ";
     }
     cout<<endl;
-    sol.nextPermutation(arr);
+    sol.nextpermutation(arr);
     for(int num: arr)
     {
         cout<<num<<" ";
